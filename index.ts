@@ -1,3 +1,5 @@
 let x = 10;
 
-console.log(x.something());
+console.log(x);
+
+x.something();
