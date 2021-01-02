@@ -3,12 +3,8 @@ name: TypeScript
 on: [push]
 
 jobs:
-  build:
+  typecheck:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [14.x]
 
     steps:
       - uses: actions/checkout@v2
