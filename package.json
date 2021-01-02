@@ -1,0 +1,17 @@
+{
+  "name": "test-github-actions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mykola Basov <git@mbasov.com>",
+  "license": "MIT",
+  "scripts": {
+    "eslint": "eslint --format=stylish index.ts",
+    "tsc": "tsc ."
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.11.1",
+    "@typescript-eslint/parser": "^4.11.1",
+    "eslint": "^7.17.0",
+    "typescript": "^4.1.3"
+  }
+}
